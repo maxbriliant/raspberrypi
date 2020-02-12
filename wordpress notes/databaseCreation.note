@@ -1,0 +1,13 @@
+
+create user 'user'@'localhost' identified by 'password';
+
+create database wordpress;
+grant usage on *.* to 'user'@'localhost' identified by 'password';
+grant all privileges on wordpress.* to user@localhost;
+use wordpress;
+
+main file for db config wordpress
+/etc/wordpress/config-192.168.0.4.php
+
+## /usr/share/wordpress/config.ini
+define('WP_ALLOW_REPAIR', true);

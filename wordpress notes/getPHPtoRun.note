@@ -1,0 +1,9 @@
+a2enmod -> load or disable modules
+
+php7 :
+
+sudo a2enmod proxy_fcgi setenvif
+sudo a2enconf php7.0-fpm
+sudo service apache2 restart
+
+

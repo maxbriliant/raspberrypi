@@ -1,0 +1,3 @@
+localhost/wordpress/wp-admin
+var/www/html -> wordpress
+		phpmyadmin
